@@ -1,0 +1,20 @@
+import time
+timestamp = time.strftime('%H:%M:%S')
+hour=int(time.strftime('%H'))
+print(timestamp)
+a=("GOOD MORNING SIR")
+b=("GOOD AFTERNOON SIR")
+c=("GOOD EVENING SIR")
+d=("GOOD NIGHT SIR")
+
+if int(5<hour<12):
+  print(a)
+
+elif int(12<hour<18):
+  print(b)
+
+elif int(18<hour<20):
+  print(c)
+
+elif int(20<hour<5):
+  print(d)
